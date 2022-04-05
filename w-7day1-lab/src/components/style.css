@@ -1,0 +1,47 @@
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    background-color: rgb(28, 28, 53);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header{
+    margin-top: 60px;
+    background-color: rgb(28, 28, 53);
+    color: white;
+    border: 2px solid white;
+    height: 500px;
+    text-align: left;
+    padding: 0 2em;
+}
+
+
+.header h1 {
+    font-size: 4rem;
+    width: 50%;
+  }
+  
+  .header p {
+    width: 40%;
+  }
+  
+  .header button {
+    width: 140px;
+    height: 56px;
+    font-size: 1.5rem;
+  }
+
+  section.features{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  section.features img{
+    flex: 1;
+  }
